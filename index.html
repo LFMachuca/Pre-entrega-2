@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva - Cabañas Don Carlos</title>
+</head>
+<body>
+    <h1>Sistema de Reservas - Cabañas Don Carlos</h1>
+
+    <div id="container"></div>
+
+        <div class="formulario-reserva-container">
+            <h2>Realizar Reserva</h2>
+            <form id="formulario-reserva">
+                <div>
+                    <label for="select-cabana">Seleccionar Cabaña:</label>
+                    <select id="select-cabana"></select>
+                </div>
+                <div>
+                    <label for="entrada">Fecha Entrada:</label>
+                    <input type="date" id="entrada">
+                </div>
+                <div>
+                    <label for="salida">Fecha Salida:</label>
+                    <input type="date" id="salida">
+                </div>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre">
+                </div>
+                <button type="submit">Reservar</button>
+            </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
